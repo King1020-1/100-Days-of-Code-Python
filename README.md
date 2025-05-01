@@ -12,6 +12,7 @@ Click the project title to find the project.
 | Day | Project                                                             |
 |-----|---------------------------------------------------------------------|
 | 01  | [Band Name Generator](Beginner-Projects/Day-01-Band-Name-Generator) |
+| 02  | [Tip Calculator](Beginner-Projects/Day-02-Tip-Calculator)
 
 ---
 
