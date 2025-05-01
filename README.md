@@ -9,9 +9,9 @@ It features my progress from **Beginner** to **Advanced** in Python and sharing 
 Click the project title to find the project.
 
 ### Beginner Level
-| Day | Project                                                              |
-|-----|----------------------------------------------------------------------|
-| 01  | [Band Name Generator](./Beginner Projects/Day 1 Band Name Generator) |
+| Day | Project                                             |
+|-----|-----------------------------------------------------|
+| 01  | [Band Name Generator](../Day 1 Band Name Generator) |
 
 ---
 
