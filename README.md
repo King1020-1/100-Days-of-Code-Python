@@ -4,7 +4,7 @@ It features my progress from **Beginner** to **Advanced** in Python and sharing 
 
 ---
 
-## Completed Days
+## Table of Contents
 
 Click the project title to find the project.
 
