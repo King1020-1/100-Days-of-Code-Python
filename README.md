@@ -15,6 +15,7 @@ Click the project title to find the project.
 | 02  | [Tip Calculator](Beginner-Projects/Day-02-Tip-Calculator)            |
 | 03  | [Treasure Island](Beginner-Projects/Day-03-Treasure-Island)          |   
 | 04  | [Rock Paper Scissors](Beginner-Projects/Day-04-Rock-Paper-Scissors)  |
+| 05  | [Password Generator](Beginner-Projects/Day-05-Password-Generator)
 
 ---
 ## How to download and run any project from here
