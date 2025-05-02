@@ -1,5 +1,5 @@
-# Day 3 – Treasure Island
-This is my Day 3 Project
+# Day 4 – Rock Paper Scissors
+This is my Day 4 Project
 
 ---
 ## Description
