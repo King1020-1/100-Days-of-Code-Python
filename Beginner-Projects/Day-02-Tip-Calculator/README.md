@@ -11,8 +11,9 @@ based on
 
 ---
 ## Learnings
-1. Typecasting to convert strings inputted into Integers or Floats
-2. Using operations on variables
-3. Using f-strings to format and round numbers
+1. Using `type()` to check the type of variable for debugging
+2. Typecasting to convert strings inputted into Integers or Floats
+3. Using operations on variables
+4. Using f-strings to format and round numbers
 
 ---
