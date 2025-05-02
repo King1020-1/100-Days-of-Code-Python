@@ -13,6 +13,7 @@ Click the project title to find the project.
 |-----|---------------------------------------------------------------------|
 | 01  | [Band Name Generator](Beginner-Projects/Day-01-Band-Name-Generator) |
 | 02  | [Tip Calculator](Beginner-Projects/Day-02-Tip-Calculator)
+| 03  | [Treasure Island](Beginner-Projects/Day-03-Treasure-Island)
 
 ---
 
