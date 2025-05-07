@@ -17,6 +17,7 @@ Click the project title to find the project.
 | 04  | [Rock Paper Scissors](Beginner-Projects/Day-004-Rock-Paper-Scissors)   |
 | 05  | [Password Generator](Beginner-Projects/Day-005-Password-Generator)     |
 | 06  | [Escaping The Maze](Beginner-Projects/Day-006-Escaping-The-Maze)       |
+| 07  | [Hangman Game](Beginner-Projects/Day-007-Hangman-Game)                 |
 
 
 ---
@@ -26,6 +27,7 @@ Click the project title to find the project.
 3. Open terminal or command prompt 
 4. Navigate to the folder where the file is saved in command prompt or terminal
 5. Use the command python file_name (remember to add .py at end)
+6. If you have any bugs running this please inform me via a Branch and a README file
 
 ---
 ## Conclusion
