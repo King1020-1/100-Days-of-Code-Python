@@ -16,6 +16,8 @@ Click the project title to find the project.
 | 03  | [Treasure Island](Beginner-Projects/Day-003-Treasure-Island)           |   
 | 04  | [Rock Paper Scissors](Beginner-Projects/Day-004-Rock-Paper-Scissors)   |
 | 05  | [Password Generator](Beginner-Projects/Day-005-Password-Generator)     |
+| 06  | [Escaping The Maze](Beginner-Projects/Day-006-Escaping-The-Maze)       |
+
 
 ---
 ## How to download and run any project from here
