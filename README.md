@@ -9,13 +9,13 @@ It features my progress from **Beginner** to **Advanced** in Python and sharing 
 Click the project title to find the project.
 
 ### Beginner Level
-| Day | Project                                                              |
-|-----|----------------------------------------------------------------------|
-| 01  | [Band Name Generator](Beginner-Projects/Day-01-Band-Name-Generator)  |
-| 02  | [Tip Calculator](Beginner-Projects/Day-02-Tip-Calculator)            |
-| 03  | [Treasure Island](Beginner-Projects/Day-03-Treasure-Island)          |   
-| 04  | [Rock Paper Scissors](Beginner-Projects/Day-04-Rock-Paper-Scissors)  |
-| 05  | [Password Generator](Beginner-Projects/Day-05-Password-Generator)
+| Day | Project                                                                |
+|-----|------------------------------------------------------------------------|
+| 01  | [Band Name Generator](Beginner-Projects/Day-001-Band-Name-Generator)   |
+| 02  | [Tip Calculator](Beginner-Projects/Day-002-Tip-Calculator)             |
+| 03  | [Treasure Island](Beginner-Projects/Day-003-Treasure-Island)           |   
+| 04  | [Rock Paper Scissors](Beginner-Projects/Day-004-Rock-Paper-Scissors)   |
+| 05  | [Password Generator](Beginner-Projects/Day-005-Password-Generator)     |
 
 ---
 ## How to download and run any project from here
