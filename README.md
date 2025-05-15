@@ -31,6 +31,12 @@ Click the project title to find the project.
 
 ---
 
+### Intermediate Level
+
+| Day | Project                                                                           |
+|-----|-----------------------------------------------------------------------------------|
+| 016 | [Coffee Machine with OOP](Intermediate-Projects/Day-016-Coffee-Machine-with-OOP)  |
+
 ## Author's Note
 
 Many of these projects are simple or experimental, and I’m not fully satisfied with all of them. I plan to revisit and improve some projects over time.  
