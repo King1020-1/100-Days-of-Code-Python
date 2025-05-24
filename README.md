@@ -39,6 +39,8 @@ Click the project title to find the project.
 | 017 | [Quiz Project](Intermediate-Projects/Day-017-Quiz-Project)                        |
 | 018 | [Hirst Painting](Intermediate-Projects/Day-018-Hirst-Painting)                    |
 | 019 | [Turtle Race](Intermediate-Projects/Day-019-Turtle-Race)                          |
+| 020 | [Snake Game](Intermediate-Projects/Day-20-and-21-Snake-Game)                      |
+| 021 | [Snake Game](Intermediate-Projects/Day-20-and-21-Snake-Game)                      |
 
 ## Author's Note
 
