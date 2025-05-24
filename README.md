@@ -36,6 +36,7 @@ Click the project title to find the project.
 | Day | Project                                                                           |
 |-----|-----------------------------------------------------------------------------------|
 | 016 | [Coffee Machine with OOP](Intermediate-Projects/Day-016-Coffee-Machine-with-OOP)  |
+| 017 | [Quiz Project](Intermediate-Projects/Day-017-Quiz-Project)                        |
 
 ## Author's Note
 
