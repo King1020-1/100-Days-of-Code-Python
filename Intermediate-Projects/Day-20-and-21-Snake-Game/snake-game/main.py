@@ -5,7 +5,7 @@ from snake import Snake,Scoreboard,Food
 screen = Screen()
 screen.tracer(0)
 screen.colormode(255)
-screen.setup(width=600,height=600)
+screen.setup(width=640,height=660)
 screen.bgcolor("black")
 screen.title("Snake Game")
 
@@ -13,6 +13,7 @@ screen.title("Snake Game")
 snake = Snake()
 food = Food()
 scoreboard = Scoreboard()
+
 
 while food.position() in [segment.position() for segment in snake.segments]:
     food.refresh()
@@ -28,10 +29,10 @@ while True:
     screen.update()
     snake.move()
     
-    wall_collision_conditions =  [snake.head.xcor() > 280,
-                             snake.head.xcor() < -280,
-                             snake.head.ycor() > 280,
-                             snake.head.ycor() < -280,
+    wall_collision_conditions =  [round(snake.head.xcor(),2) > 280,
+                             round(snake.head.xcor(),2) < -280,
+                             round(snake.head.ycor(),2) > 280,
+                             round(snake.head.ycor(),2) < -280,
     ]
                              
     body_collision_conditions = [(round(snake.head.xcor() - segment.xcor(),2) , round(snake.head.ycor() - segment.ycor(),2))
