@@ -2,7 +2,6 @@ import random
 from turtle import Turtle,Screen
 from pathlib import Path
 import itertools
-import time
 
 IMAGE_DIRECTORY = Path(__file__).resolve().parent.parent / "images"
 
@@ -38,12 +37,11 @@ grid_tiles = {"up" : (0,SIZE_OF_GRID),
 } # Basically this dict refers to the immediate left right up down of a particular tile
 
 
-screen = Screen()
-for value in image_list.values():
-    screen.addshape(str(IMAGE_DIRECTORY / value))
-
 class Snake:
     def __init__(self):
+        screen = Screen()
+        for value in image_list.values():
+            screen.addshape(str(IMAGE_DIRECTORY / value))
         self.segments : list[Turtle] = []
         self.create_snake()
         self.head = self.segments[0]
@@ -175,44 +173,50 @@ class Snake:
 class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
-        self.set_border()
+        self.set_grid()
         self.penup()
         self.goto(0,280)
         self.score = 0
-        self.color("white")
         self.write(f"Score: {self.score}", align = "center",font = ("Courier", 20, "normal"))
 
     def game_over(self):
         self.goto(0,0)
         self.write(f"GAME OVER", align = "center",font = ("Courier", 20, "normal"))
+        print(f"Game Over. You've a final score of {self.score}")
 
     def increase_score(self):
         self.clear()
-        self.set_border()
+        self.set_grid()
         self.penup()
         self.goto(0,280)
         self.score += 1
         self.write(f"Score: {self.score}", align = "center",font = ("Courier", 20, "normal"))
 
-    def set_border(self):
+    def set_grid(self):
         self.pendown()
-        self.color("white")
         self.hideturtle()
         self.teleport(290,290)
-        self.goto(290,-290)
-        self.goto(-290,-290)
-        self.goto(-290,290)
-        self.goto(290,290)
         self.goto(290,320)
         self.goto(-290,320)
         self.goto(-290,290)
         self.goto(290,290)
+        for i in range(30):
+            self.goto(290,290 - 20*i)
+            self.goto(-290,290 - 20*i)
+            self.teleport(290,270 - 20*i)
+
+        self.teleport(290,290)
+
+        for i in range(30):
+            self.goto(290 - 20*i,290)
+            self.goto(290 - 20*i,-290)       
+            self.teleport(270 - 20*i,290)
 
 
 class Food(Turtle):
     def __init__(self):
         super().__init__()
-        self.shape("circle")
+        self.shape(image_list["fruit"])
         self.penup()
         self.shapesize(stretch_len = 0.5,stretch_wid = 0.5)
         self.color("orange")
@@ -222,6 +226,3 @@ class Food(Turtle):
     def refresh(self):
         rand_x,rand_y = 20*random.randint(-12,12),20*random.randint(-12,12)
         self.goto(rand_x,rand_y)
-
-
-        
